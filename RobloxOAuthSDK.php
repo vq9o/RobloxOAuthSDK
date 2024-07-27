@@ -6,7 +6,7 @@ class RobloxOAuthSDK {
     private $clientId;
     private $clientSecret;
     private $redirectUri;
-    private $discoveryUrl;
+    private $discoveryUrl; // Roblox discovery URL is; https://apis.roblox.com/oauth/.well-known/openid-configuration
     private $tokenSet;
     private $home_page;
 
